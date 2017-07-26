@@ -1,6 +1,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE)
 ![Platform](https://img.shields.io/cocoapods/p/TSMessages.svg?style=flat)
 
+# PixzlWebViewCache
 Reload a UIWebView and clear the cache. 
 
 ## How to Install
