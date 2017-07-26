@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E98629E1F286590003ABBC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E98629D1F286590003ABBC5 /* main.m */; };
+		4E9862A11F286590003ABBC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9862A01F286590003ABBC5 /* AppDelegate.m */; };
+		4E9862A41F286590003ABBC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9862A31F286590003ABBC5 /* ViewController.m */; };
+		4E9862A71F286590003ABBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9862A51F286590003ABBC5 /* Main.storyboard */; };
+		4E9862A91F286590003ABBC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9862A81F286590003ABBC5 /* Assets.xcassets */; };
+		4E9862AC1F286590003ABBC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9862AA1F286590003ABBC5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E9862991F286590003ABBC5 /* PixzlWebViewCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixzlWebViewCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E98629D1F286590003ABBC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E98629F1F286590003ABBC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E9862A01F286590003ABBC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E9862A21F286590003ABBC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E9862A31F286590003ABBC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E9862A61F286590003ABBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E9862A81F286590003ABBC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E9862AB1F286590003ABBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E9862AD1F286590003ABBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E9862961F28658F003ABBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E9862901F28658F003ABBC5 = {
+			isa = PBXGroup;
+			children = (
+				4E98629B1F286590003ABBC5 /* PixzlWebViewCache */,
+				4E98629A1F286590003ABBC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E98629A1F286590003ABBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E9862991F286590003ABBC5 /* PixzlWebViewCache.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E98629B1F286590003ABBC5 /* PixzlWebViewCache */ = {
+			isa = PBXGroup;
+			children = (
+				4E98629F1F286590003ABBC5 /* AppDelegate.h */,
+				4E9862A01F286590003ABBC5 /* AppDelegate.m */,
+				4E9862A21F286590003ABBC5 /* ViewController.h */,
+				4E9862A31F286590003ABBC5 /* ViewController.m */,
+				4E9862A51F286590003ABBC5 /* Main.storyboard */,
+				4E9862A81F286590003ABBC5 /* Assets.xcassets */,
+				4E9862AA1F286590003ABBC5 /* LaunchScreen.storyboard */,
+				4E9862AD1F286590003ABBC5 /* Info.plist */,
+				4E98629C1F286590003ABBC5 /* Supporting Files */,
+			);
+			path = PixzlWebViewCache;
+			sourceTree = "<group>";
+		};
+		4E98629C1F286590003ABBC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E98629D1F286590003ABBC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E9862981F28658F003ABBC5 /* PixzlWebViewCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E9862B01F286590003ABBC5 /* Build configuration list for PBXNativeTarget "PixzlWebViewCache" */;
+			buildPhases = (
+				4E9862951F28658F003ABBC5 /* Sources */,
+				4E9862961F28658F003ABBC5 /* Frameworks */,
+				4E9862971F28658F003ABBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixzlWebViewCache;
+			productName = PixzlWebViewCache;
+			productReference = 4E9862991F286590003ABBC5 /* PixzlWebViewCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E9862911F28658F003ABBC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Pixzl;
+				TargetAttributes = {
+					4E9862981F28658F003ABBC5 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4E9862941F28658F003ABBC5 /* Build configuration list for PBXProject "PixzlWebViewCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E9862901F28658F003ABBC5;
+			productRefGroup = 4E98629A1F286590003ABBC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E9862981F28658F003ABBC5 /* PixzlWebViewCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E9862971F28658F003ABBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9862AC1F286590003ABBC5 /* LaunchScreen.storyboard in Resources */,
+				4E9862A91F286590003ABBC5 /* Assets.xcassets in Resources */,
+				4E9862A71F286590003ABBC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E9862951F28658F003ABBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9862A41F286590003ABBC5 /* ViewController.m in Sources */,
+				4E9862A11F286590003ABBC5 /* AppDelegate.m in Sources */,
+				4E98629E1F286590003ABBC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E9862A51F286590003ABBC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E9862A61F286590003ABBC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E9862AA1F286590003ABBC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E9862AB1F286590003ABBC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E9862AE1F286590003ABBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E9862AF1F286590003ABBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E9862B11F286590003ABBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PixzlWebViewCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixzl.PixzlWebViewCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E9862B21F286590003ABBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PixzlWebViewCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixzl.PixzlWebViewCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E9862941F28658F003ABBC5 /* Build configuration list for PBXProject "PixzlWebViewCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9862AE1F286590003ABBC5 /* Debug */,
+				4E9862AF1F286590003ABBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E9862B01F286590003ABBC5 /* Build configuration list for PBXNativeTarget "PixzlWebViewCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9862B11F286590003ABBC5 /* Debug */,
+				4E9862B21F286590003ABBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E9862911F28658F003ABBC5 /* Project object */;
+}
